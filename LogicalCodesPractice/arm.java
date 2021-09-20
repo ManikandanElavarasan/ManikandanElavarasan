@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class arm {
+public class Armstrong{
 
 	public static void main(String[] args) {
 		//153-->1*1*1 +5*5*5 + 3*3*3=153
