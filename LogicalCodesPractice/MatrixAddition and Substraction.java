@@ -41,7 +41,7 @@ public class MatrixAddition {
 		{
 			for(int j=0;j<cols;j++)
 			{
-				results[i][j]=Matrix1[i][j]+Matrix2[i][j];
+				results[i][j]=Matrix1[i][j] + Matrix2[i][j];   //instead of Plus we can pit Minus symbol for matrix substraction
 			}
 		}
 		for(int i=0;i<rows;i++)
