@@ -44,7 +44,7 @@ public class PercentageCal {
 	}
 
 	public static void main(String[] args) {
-		Percentage("Manikandan Birthday is 2001");
+		Percentage("Java Programming Practice $$$####");
 	}
 
 }
