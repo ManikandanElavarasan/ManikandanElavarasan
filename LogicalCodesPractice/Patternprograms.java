@@ -189,7 +189,7 @@ public class trick {
 		/* A
 		   A B
 		   A B C
-           A B C D 
+                   A B C D 
 		   A B C D E 
 		   A B C D E F  */
 		int ascii=65;     // ascii value for A is 65 and a is 97
