@@ -5,12 +5,12 @@ import java.util.stream.IntStream;
 public class P {
 
 	public static void main(String[] args) {
-		/*A obj=new A();
+		A obj=new A();
 		obj.display(1,100);
 		
-		
+		//1 way
 		char one='A'/'A';
-		String s="..........";   //one way
+		String s="..........";   
 		for(int i=one;i<=s.length()*s.length();i++)
 		{
 			System.out.println(i);
@@ -18,8 +18,10 @@ public class P {
 		for(int i=one;i<='d';i++)   //another way using ascii values,ascii value for d is 100
 		{
 			System.out.println(i);
-		}*/
-		IntStream.range(1, 101).forEach(i->System.out.println(i));;
+		}
+		
+		//2 way using Streams
+		IntStream.range(1, 101).forEach(i->System.out.println(i));
 
 	}
 
@@ -27,7 +29,7 @@ public class P {
 //print 1 to 100 without loop
 class A
 {
-	public void display(int start ,int end ) //one way
+	public void display(int start ,int end ) //3 way
 	{
 		if(start<=end)
 		{
