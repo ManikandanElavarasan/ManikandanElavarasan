@@ -16,21 +16,18 @@ public class MinandMaxElementInAnArray {
 		    array[i]=sc.nextInt();	
 		}
 		min=max=array[0];
-	
-			for(int i=0;i<size;i++)
+		for(int j=i+1;j<size;j++)
+	          {
+			if(array[j]<min)
+			 {
+			      min=array[j];
+			 }
+			else
 			{
-				for(int j=i+1;j<size;j++)
-				{
-					if(array[j]<min)
-					{
-						min=array[j];
-					}
-					else
-					{
-						max=array[j];
-					}
-				}
+			     max=array[j];
 			}
+		 }
+			
 			System.out.println("Maximum element is: "+max);
 			System.out.println("Minimum element is: "+min);
 		
