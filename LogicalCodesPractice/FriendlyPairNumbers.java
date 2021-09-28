@@ -1,8 +1,8 @@
 package first;
 
 import java.util.Scanner;
-//friendlyPair numbers are two natural numbers,sum of factors of first number should be equal to the second number
-//sum of factors of second number is equal to the first number...
+/*friendlyPair numbers are two natural numbers,sum of factors of first number should be equal to the second number
+sum of factors of second number is equal to the first number...*/
 public class FriendlyPairNumbers {
 	public static int findFactorsSum(int n)
 	{
@@ -25,11 +25,11 @@ public class FriendlyPairNumbers {
 		int SumofFactorsofnum2=findFactorsSum(num2);
 		if(SumofFactorsofnum1==num2 && SumofFactorsofnum2==num1)
 		{
-			System.out.println("Both Numbers are Friendly Pair Numbers..");
+			System.out.println(" Numbers are Friendly Pair..");
 		}
 		else
 		{
-			System.out.println("Both Numbers are not Friendly Pair Numbers..");
+			System.out.println(" Numbers are not Friendly Pair ..");
 		}
 
 
