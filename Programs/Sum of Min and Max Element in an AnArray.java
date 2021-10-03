@@ -28,8 +28,8 @@ public class MinandMaxElementInAnArray {
 					}
 				}
 			
-			System.out.println("Maximum element is: "+max);
-			System.out.println("Minimum element is: "+min);
+			int sum=max+min;
+		System.out.println("Sum of Maximum and Minimum is numbers is: "+sum);
 		
 		
 
