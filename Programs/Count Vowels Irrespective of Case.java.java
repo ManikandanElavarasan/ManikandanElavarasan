@@ -9,7 +9,7 @@ public class CountVowels {
 	public static void main(String[] args) {
 		
 		/**
-		 * 2. Find the number of vowels in a given string Input1:”NewyorkE” 'e' or 'E' -
+		 * 2. Find the number of vowels in a given string Input1:â€NewyorkEâ€ 'e' or 'E' -
 		 * it should be counted as 1 Output1:2 Hint:irrespective of case
 		 */
 		 int count = 0;
