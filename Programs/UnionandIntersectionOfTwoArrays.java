@@ -16,7 +16,7 @@ public class UnionandIntersectionOfTwoArrays {
 		System.out.println("The Union And Intersection are: "+unionIntersection(intersection(arr1,arr2),union(arr1,arr2)));
 	}
 	
-	public static HashSet<Integer> intersection(Integer[]a,Integer[]b)
+	public static HashSet<Integer> intersection(Integer[]a,Integer[]b)  //A intersection B
 	{
 		HashSet<Integer>set=new HashSet<>();
 		for(int i=0;i<a.length;i++)
@@ -34,7 +34,7 @@ public class UnionandIntersectionOfTwoArrays {
 		
 		return set;
 	}
-	public static HashSet<Integer> union(Integer[]a,Integer[]b)
+	public static HashSet<Integer> union(Integer[]a,Integer[]b)  A union B
 	{
 		HashSet<Integer>set=new HashSet<>();
 		set.addAll(Arrays.asList(a));
@@ -45,7 +45,7 @@ public class UnionandIntersectionOfTwoArrays {
 		
 		return  set;
 	}
-	public static HashSet<Integer> unionIntersection(HashSet<Integer> set1,HashSet<Integer> set2)
+	public static HashSet<Integer> unionIntersection(HashSet<Integer> set1,HashSet<Integer> set2) //A union B - A intersection B
 	{
 		for(Integer value:set1)
 		{
